@@ -53,11 +53,14 @@ It focuses on integrating multiple inputs and outputs into a responsive and inte
 
 ## 🧩 Future Improvements
 
-- Add more games (Pong, Snake, Breakout)  
-- Improve graphics and animations  
-- Add score tracking system  
-- Implement menu navigation system  
-- Optimize performance  
+- Expand the project by adding more interactive games
+- Enhance the display design, graphics, and animations
+- Implement a score and high-score saving system
+- Improve the game menu and navigation experience
+- Optimize the system for better speed and smoother performance
+- Add more interactive hardware components, such as LEDs and extra buttons
+- Develop a 3D design for the console body
+- Build a 3D-printed enclosure to give the project a more professional and realistic look
 
 ---
 
