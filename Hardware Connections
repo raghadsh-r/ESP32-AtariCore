@@ -9,7 +9,7 @@
 | OLED Display | SDA | GPIO21 |
 | OLED Display | SCL | GPIO22 |
 
-
+https://i.ibb.co/vxsX8b3/joystick-connections.png
 | Joystick | VCC | 3V3 |
 | Joystick | GND | GND |
 | Joystick | VRX | GPIO34 |
