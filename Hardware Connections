@@ -1,0 +1,46 @@
+## Hardware Connections
+
+### ESP32 Pin Connections
+
+| Component | Pin / Terminal | ESP32 Pin |
+|---|---|---|
+| OLED Display | VCC | 3V3 |
+| OLED Display | GND | GND |
+| OLED Display | SDA | GPIO21 |
+| OLED Display | SCL | GPIO22 |
+| Joystick | VCC | 3V3 |
+| Joystick | GND | GND |
+| Joystick | VRX | GPIO34 |
+| Joystick | VRY | GPIO35 |
+| Joystick | SW | GPIO32 |
+| Push Button A | Signal | GPIO25 |
+| Push Button Up | Signal | GPIO26 |
+| Push Button Down | Signal | GPIO27 |
+| Push Button Back | Signal | GPIO14 |
+| Buzzer | Positive (+) | GPIO18 |
+| Buzzer | Negative (-) | GND |
+| Green LED | Anode (+) | GPIO2 |
+| Blue LED | Anode (+) | GPIO4 |
+| Yellow LED | Anode (+) | GPIO5 |
+| Red LED | Anode (+) | GPIO19 |
+
+---
+
+## Push Button Wiring
+
+Each push button is connected using the internal pull-up resistor of the ESP32.
+
+| Button | Function | ESP32 Pin |
+|---|---|---|
+| Button A | Select / Shoot / Jump | GPIO25 |
+| Button Up | Move Up / Menu Up | GPIO26 |
+| Button Down | Move Down / Menu Down | GPIO27 |
+| Button Back | Return to Menu | GPIO14 |
+
+### Button Connection
+
+Each button should be connected as follows:
+
+```txt
+One side of the button  -> ESP32 GPIO pin
+Other side of the button -> GND
