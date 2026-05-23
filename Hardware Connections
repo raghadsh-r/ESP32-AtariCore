@@ -8,11 +8,14 @@
 | OLED Display | GND | GND |
 | OLED Display | SDA | GPIO21 |
 | OLED Display | SCL | GPIO22 |
+
+
 | Joystick | VCC | 3V3 |
 | Joystick | GND | GND |
 | Joystick | VRX | GPIO34 |
 | Joystick | VRY | GPIO35 |
 | Joystick | SW | GPIO32 |
+
 | Push Button A | Signal | GPIO25 |
 | Push Button Up | Signal | GPIO26 |
 | Push Button Down | Signal | GPIO27 |
