@@ -129,10 +129,8 @@ def down_button_pressed():
 
 def back_pressed():
     return is_pressed(btn_back, BASE_BACK)
+#X=UP/DOWN  ,Y= LEFT/RIGHT
 
-# حسب تجربتك:
-# فوق/تحت = X
-# يمين/يسار = Y
 def joy_up():
     return joy_x.read() < CENTER_X - DEADZONE
 
@@ -179,7 +177,7 @@ def splash():
 
     oled.fill(0)
     draw_frame()
-    center_text("RAGHAD", 7)
+    center_text("RAGHAD & Reema", 7)
     center_text("MINI ATARI", 22)
     oled.hline(24, 35, 80, 1)
     center_text("ESP32 CONSOLE", 43)
