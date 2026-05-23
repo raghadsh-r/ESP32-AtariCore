@@ -47,7 +47,8 @@ It focuses on integrating multiple inputs and outputs into a responsive and inte
 
 ## 📷 Preview
 
-<img width="607" height="387" alt="image" src="https://github.com/user-attachments/assets/053d0d60-9e9b-47d8-974b-f37898292787" />
+<img width="726" height="446" alt="image" src="https://github.com/user-attachments/assets/c6250a11-b01f-4b68-97e9-19df42f63c70" />
+
 
 ---
 
